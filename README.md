@@ -1,1 +1,1 @@
-Deployment Link : https://thriving-tapioca-217898.netlify.app
+Deployment Link : https://react-shoe-mart.netlify.app
