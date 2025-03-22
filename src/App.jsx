@@ -32,7 +32,7 @@ function App() {
     item.title.includes(query)
   );
 
-  // Final filtering based on query and selected category
+  // Final filtering
   const filterData = (data, selectedCategory, query) => {
     let filteredProducts = data;
     if (query) {
@@ -50,7 +50,7 @@ function App() {
     }
     return filteredProducts.map((eachItem) => (
       <Card
-        key={eachItem.id} // ensure each card has a unique key (assuming each item has an 'id')
+        key={eachItem.id} // each item has a unique key
         img={eachItem.img}
         title={eachItem.title}
         prevPrice={eachItem.prevPrice}
@@ -62,7 +62,7 @@ function App() {
 
   const result = filterData(data, selectedCategory, query);
 
-  // Check viewport width on mount and show modal if below 768px
+  // Check if in mobile version
   useEffect(() => {
     if (window.innerWidth < 768) {
       setShowModal(true);
