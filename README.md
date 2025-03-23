@@ -1,5 +1,7 @@
 # Shoe Mart | UI Project
 
+![Screenshot]([https://your-image-url.com/homepage.png](https://blogger.googleusercontent.com/img/a/AVvXsEhhwbTl9inhDq8gL676DC6JFM6CE6cg9ihDEDwRXlOq1OXoM-h911wZIw9kivCGctsQFqNTVyQn44QmBbz0tBSEcop1EqWXstqbx0uKuI-uxO4tyB1KEo6WE-YF_fqyeSElUFkctpyBEAg260NLQGGmrP19PoV6u7IRRexCz17O0v5AtzFxx_Kzo0LMI7Sl))
+
 ## 🚀 Live Demo
 [Click here to view the app](https://react-shoe-mart.netlify.app)
 
